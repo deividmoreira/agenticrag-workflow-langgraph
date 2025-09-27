@@ -1,0 +1,33 @@
+# Projeto 6 - RAG Baseado em Agentes de IA Para Sistema Customizado de IA Generativa
+
+# Para executar a app:
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaragp6 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaragp6 (ou: source activate dsaragp6)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute: 
+
+python dsaprojeto6.py
+
+# Perguntas de exemplo:
+
+# Qual o Objeto do Contrato?
+# Quais são as Obrigações do Contratante?
+# Em caso de rescisão por descumprimento de qualquer obrigação, a parte inadimplente ficará sujeita ao pagamento de multa compensatória de qual valor?
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsaragp6 --all
+
+
